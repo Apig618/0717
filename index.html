@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>美食天地</title>
+    <title>SEVENTEEN 介绍</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f0f0f0;
         }
         header {
-            background-color: #ff6347;
+            background-color: #ff6f61;
             color: white;
             padding: 20px;
             text-align: center;
@@ -25,15 +25,15 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        .dish {
-            margin: 20px 0;
+        .member {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
         }
-        .dish img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-        .dish h2 {
-            color: #333;
+        .member img {
+            border-radius: 50%;
+            max-width: 100px;
+            margin-right: 15px;
         }
         footer {
             text-align: center;
@@ -44,35 +44,110 @@
             bottom: 0;
             width: 100%;
         }
+        @media (max-width: 600px) {
+            .member {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .member img {
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>欢迎来到美食天地</h1>
-    <p>探索美味，享受生活</p>
+    <h1>SEVENTEEN 介绍</h1>
+    <p>欢迎来到 SEVENTEEN 的世界</p>
 </header>
 
 <div class="container">
-    <div class="dish">
-        <img src="https://via.placeholder.com/800x400" alt="美食1">
-        <h2>美食一：意大利面</h2>
-        <p>这是一道经典的意大利美食，搭配自制的番茄酱，口感丰富。</p>
+    <h2>关于 SEVENTEEN</h2>
+    <p>SEVENTEEN 是一个由 13 名成员组成的韩国男子音乐组合，成立于 2015 年，由 Pledis Entertainment 管理。该组合以其出色的舞蹈、音乐创作能力和强烈的团队精神而闻名。</p>
+    
+    <h2>成员介绍</h2>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员1">
+        <div>
+            <h3>S.Coups</h3>
+            <p>队长，主唱和饶舌。</p>
+        </div>
     </div>
-    <div class="dish">
-        <img src="https://via.placeholder.com/800x400" alt="美食2">
-        <h2>美食二：寿司</h2>
-        <p>新鲜的鱼片和醋饭的完美结合，绝对是寿司爱好者的最爱。</p>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员2">
+        <div>
+            <h3>Jeonghan</h3>
+            <p>主唱，以其甜美的嗓音而闻名。</p>
+        </div>
     </div>
-    <div class="dish">
-        <img src="https://via.placeholder.com/800x400" alt="美食3">
-        <h2>美食三：巧克力蛋糕</h2>
-        <p>浓郁的巧克力味道，让每一口都充满幸福感。</p>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员3">
+        <div>
+            <h3>Joshua</h3>
+            <p>主唱，擅长创作歌曲。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员4">
+        <div>
+            <h3>Woozi</h3>
+            <p>主唱和音乐制作人，负责大部分歌曲的创作。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员5">
+        <div>
+            <h3>DK</h3>
+            <p>主唱，以其强大的声乐能力而著称。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员6">
+        <div>
+            <h3>Seungkwan</h3>
+            <p>主唱，以其幽默感和舞台魅力闻名。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员7">
+        <div>
+            <h3>Hoshi</h3>
+            <p>舞蹈负责人，编舞和主舞者。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员8">
+        <div>
+            <h3>Jun</h3>
+            <p>主舞者，擅长各种舞蹈风格。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员9">
+        <div>
+            <h3>Woozi</h3>
+            <p>主唱和音乐制作人，负责大部分歌曲的创作。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员10">
+        <div>
+            <h3>Vernon</h3>
+            <p>主饶舌，参与创作歌词。</p>
+        </div>
+    </div>
+    <div class="member">
+        <img src="https://via.placeholder.com/100" alt="成员11">
+        <div>
+            <h3>Dino</h3>
+            <p>最年轻的成员，主舞者和饶舌。</p>
+        </div>
     </div>
 </div>
 
 <footer>
-    <p>&copy; 2024 美食天地 - 版权所有</p>
+    <p>&copy; 2024 SEVENTEEN Fanpage - 版权所有</p>
 </footer>
 
 </body>
